@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 set -e
 
 gcc getenv.c -o getenv -lm -g -Wall -O3 -std=gnu11

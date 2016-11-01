@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 set -e
 
 gcc erf.c -o erf -lm -g -Wall -O3 -std=gnu11
