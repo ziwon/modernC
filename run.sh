@@ -11,4 +11,4 @@ usage(){
 
 gcc $1 -o ${1%.c} -lm -g -Wall -O3 -std=gnu11
 
-./${1%.c}
+./${1%.c} $2
